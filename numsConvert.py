@@ -12,6 +12,24 @@ def num2string(num):
      """
      
      numString = ""
+      if num == 1:
+          numString = "one"
+     elif num == 2:
+          numString = "two"
+     elif num == 3:
+          numString = "three"
+     elif num == 4:
+          numString = "four"
+     elif num == 5:
+          numString = "five"
+     elif num == 6:
+          numString = "six"
+     elif num == 7:
+          numString = "seven"
+     elif num == 8:
+          numString = "eight"
+     else num == 9:
+          numString = "nine"
 
      ###################################
      ### FILL IN YOUR CODE HERE      ###
